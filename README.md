@@ -1,4 +1,4 @@
-# 科学上网：VPS 搭建 X-UI 面板
+# 科学上网：VPS 搭建 X-UI 伪装面板教程
 
 ## 使用X-UI搭建代理服务，具有以下优点：
 
@@ -44,17 +44,17 @@ http://www.hostbuf.com/downloads/finalshell_install.pkg
 ### 申请证书及密钥
 【将代码中注释的邮箱和域名，改为你自己的】
 
-    ~/.acme.sh/acme.sh --register-account -m xxxx@gmail.com
+    ~/.acme.sh/acme.sh --register-account -m 751206963@qq.com
     
     
 ------------ 
  
 
-    ~/.acme.sh/acme.sh  --issue -d 输入你的域名  --standalone
+    ~/.acme.sh/acme.sh  --issue -d test.xpenwrt.top  --standalone
     
  ### 下载证书及密钥
  
-    ~/.acme.sh/acme.sh --installcert -d 输入你的域名 --key-file /root/private.key --fullchain-file /root/cert.crt
+    ~/.acme.sh/acme.sh --installcert -d test.xpenwrt.top --key-file /root/private.key --fullchain-file /root/cert.crt
     
 ### 安装&升级x-ui面板一键脚本
 
