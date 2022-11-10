@@ -64,7 +64,10 @@ http://www.hostbuf.com/downloads/finalshell_install.pkg
 
     wget --no-check-certificate -q -O bbr2.sh "https://github.com/yeyingorg/bbr2.sh/raw/master/bbr2.sh" && chmod +x bbr2.sh && bash bbr2.sh auto
  
- 
+### 四合一加速脚本代码
+    
+    wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+    
 ## 注意事项
 - 1、如何在申请证书及密钥这一步搭建失败，检查并放行端口，口令如下：
 
